@@ -7,3 +7,4 @@ dependencies:
   - jupyter-server-proxy
   - code-server >=3.2
   - bash_kernel
+  - jupyterlab_myst
