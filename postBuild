@@ -7,3 +7,6 @@ pip install -e.
 
 # Install Bash Kernel
 python -m bash_kernel.install
+
+# Install poetry
+curl -sSL https://install.python-poetry.org | python3 -
