@@ -5,8 +5,12 @@ code-server --install-extension ms-python.python
 # Install the VS code proxy
 pip install -e.
 
+# Update Conda
+conda update conda
+
 # Install Bash Kernel
 python -m bash_kernel.install
 
 # Install poetry
 curl -sSL https://install.python-poetry.org | python3 -
+
